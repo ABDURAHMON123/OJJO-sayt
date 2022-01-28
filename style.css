@@ -1,0 +1,919 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&family=Luxurious+Roman&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@400;700;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header__mobile__blocks {
+    display: none;
+}
+
+.header__blocks {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/header\ backround.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__menu {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu__left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+}
+
+.header__menu__left a {
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    padding-right: 35px;
+}
+
+.header__menu__right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+}
+
+.header__menu__search__blocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.header__menu__search {
+    display: flex;
+    margin-right: 40px;
+    align-items: center;
+}
+
+.header__menu__search p {
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: white;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+.fa-search {
+    color: white;
+    cursor: pointer;
+}
+
+.header__input {
+    position: absolute;
+    bottom: 0px;
+    left: -50px;
+    display: block;
+    opacity: 0;
+    transition: .5s;
+}
+
+.header__input:hover {
+    opacity: 1;
+    transition: .5s;
+}
+
+.search__input {
+    width: 150px;
+    display: block;
+    border: 1px solid white;
+    background: black;
+    border-radius: 50px;
+    height: 25px;
+    color: white;
+    padding: 3px 10px;
+    outline: none;
+}
+
+.search__input::placeholder {
+    border: none;
+    color: white;
+    padding: 3px;
+    outline: none;
+}
+
+.header__menu__regis {
+    display: flex;
+    align-items: center;
+}
+
+.header__menu__regis a {
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    padding-right: 30px;
+}
+
+.fa-user {
+    padding-right: 15px;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.fa-user:hover {
+    transition: .5s;
+    color: blueviolet;
+}
+
+.fa-heart {
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.fa-heart:hover {
+    transition: .5s;
+    color: red;
+}
+
+.header__menu a:hover {
+    color: rgb(233, 233, 233);
+}
+
+.header__mobile__button {
+    display: none;
+}
+
+.header__content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+    margin-bottom: 50px;
+}
+
+.header__content h1 {
+    font-family: Noto Serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.header__content p {
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    padding: 8px 15px;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+}
+
+.header__content p:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.5s;
+}
+
+.header__sponsor {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.sponsor {
+    border-left: 1px solid white;
+}
+
+
+/* nastoyashiy blocks */
+
+.nastoyashiy__blocks {
+    width: 100%;
+}
+
+.nastoyashiy__block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nasto__texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.nasto__texts p {
+    font-family: Gilroy;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.nasto__texts h1 {
+    font-family: Noto Serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.nasto__buttons {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.nasto__buttons1 a:nth-child(1) {
+    padding: 5px 20px;
+    margin-right: 15px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.nasto__buttons1 a:last-child {
+    margin-right: 15px;
+}
+
+.nasto__button {
+    padding: 5px 20px;
+    border: 1px solid black;
+    text-transform: uppercase;
+    color: black;
+    margin-right: 15px;
+    transition: .5s;
+}
+
+.nasto__button:hover {
+    background-color: black;
+    transition: .5s;
+    color: white;
+}
+
+.nasto__cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.nasto__cards1,
+.nasto__cards2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.nasto__card1 {
+    width: 220px;
+    height: 180px;
+    background-image: url(images/nastaashiy\ card\ img\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    transition: .5s;
+}
+
+.nasto__card1:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: .4s;
+}
+
+.nasto__card1 p {
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: white;
+    padding-bottom: 15px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.nasto__card1 p:hover {
+    padding-bottom: 10px;
+    transition: .2s;
+}
+
+.nasto__card2 {
+    width: 220px;
+    height: 180px;
+    background-image: url(images/nastayashiy\ card\ img\ 2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    transition: .5s;
+}
+
+.nasto__card2:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: .4s;
+}
+
+.nasto__card2 p {
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: white;
+    padding-bottom: 15px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.nasto__card2 p:hover {
+    padding-bottom: 10px;
+    transition: .2s;
+}
+
+.nasto__card3 {
+    width: 220px;
+    height: 180px;
+    background-image: url(images/nastayashiy\ card\ img\ 3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    transition: .5s;
+}
+
+.nasto__card3:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: .4s;
+}
+
+.nasto__card3 p {
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: white;
+    padding-bottom: 15px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.nasto__card3 p:hover {
+    padding-bottom: 10px;
+    transition: .2s;
+}
+
+.nasto__card4 {
+    width: 220px;
+    height: 180px;
+    background-image: url(images/nastayashiy\ card\ img\ 4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 15px;
+    transition: .5s;
+}
+
+.nasto__card4:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: .4s;
+}
+
+.nasto__card4 p {
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: white;
+    padding-bottom: 15px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.nasto__card4 p:hover {
+    padding-bottom: 10px;
+    transition: .2s;
+}
+
+.nasto__card5 {
+    width: 220px;
+    height: 180px;
+    background-image: url(images/nastayashiy\ card\ img\ 5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 15px;
+    transition: .5s;
+}
+
+.nasto__card5:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: .4s;
+}
+
+.nasto__card5 p {
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: white;
+    padding-bottom: 15px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.nasto__card5 p:hover {
+    padding-bottom: 10px;
+    transition: .2s;
+}
+
+.nasto__card6 {
+    width: 220px;
+    height: 180px;
+    background-image: url(images/nastayashiy\ card\ img\ 6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 15px;
+    transition: .5s;
+}
+
+.nasto__card6:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: .4s;
+}
+
+.nasto__card6 p {
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: white;
+    padding-bottom: 15px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.nasto__card6 p:hover {
+    padding-bottom: 10px;
+    transition: .2s;
+}
+
+
+/* posetite blocks
+================================== */
+
+.posetite__blocks {
+    width: 100%;
+    background-image: url(images/posetite\ backround.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.posetite__block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.posetite__texts {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.posetite__text {
+    width: 70%;
+}
+
+.posetite__texts p {
+    font-family: Gilroy;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgb(218, 218, 218);
+    padding-bottom: 15px;
+}
+
+.posetite__texts h1 {
+    font-family: Noto Serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.posetite__texts span {
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgb(218, 218, 218);
+}
+
+.posetite__button {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.posetite__texts a {
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: black;
+    padding: 8px 15px;
+    background-color: white;
+    border: 1px solid white;
+    transition: .5s;
+}
+
+.posetite__texts a:hover {
+    color: white;
+    background-color: black;
+    transition: .5s;
+}
+
+
+/* luchshie blocks 
+=================================================*/
+
+.luchshie__blocks {
+    width: 100%;
+}
+
+.luchshie__block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.luchshie__texts {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.luchshie__texts p {
+    font-family: Gilroy;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.luchshie__texts h1 {
+    font-family: Noto Serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.luchshie___cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.luchshie___cards p {
+    font-family: Gilroy;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    width: 200px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.luchshie___cards p:hover {
+    padding-bottom: 25px;
+    transition: .5s;
+}
+
+.luchshie__card1 {
+    width: 300px;
+    height: 300px;
+    background-image: url(images/luchshie\ card\ 1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: .5s;
+    justify-content: flex-end;
+}
+
+.luchshie__card2 {
+    width: 300px;
+    height: 300px;
+    background-image: url(images/luchshie\ card\ 2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: .5s;
+    justify-content: flex-end;
+}
+
+.luchshie__card3 {
+    width: 300px;
+    height: 300px;
+    background-image: url(images/luchshie\ card\ 3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    transition: .5s;
+}
+
+.luchshie__card1:hover,
+.luchshie__card2:hover,
+.luchshie__card3:hover {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    transition: .5s;
+}
+
+.luchshie__button {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.luchshie__button a {
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: white;
+    padding: 8px 15px;
+    background-color: black;
+    border: 1px solid black;
+    transition: .5s;
+    margin-bottom: 30px;
+}
+
+.luchshie__button a:hover {
+    color: black;
+    background-color: white;
+    transition: .5s;
+}
+
+
+/* mi blocks 
+=====================================*/
+
+.mi__blocks {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.mi__block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mi__texts {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mi__texts a {
+    font-family: Gilroy;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.mi__texts h1 {
+    font-family: Noto Serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.mi__cards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.mi__cards__top,
+.mi__cards__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mi__card1 {
+    background-image: url(images/mi\ card1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+
+.mi__card2,
+.mi__card1bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mi__card2bottom {
+    background-image: url(images/mi\ card3bottom.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+
+.mi__card1 img,
+.mi__card2bottom img {
+    transition: .5s;
+    cursor: pointer;
+}
+
+.mi__card1 img:hover,
+.mi__card2bottom img:hover {
+    padding-bottom: 15px;
+    transition: .5s;
+}

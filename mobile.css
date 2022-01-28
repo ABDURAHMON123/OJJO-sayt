@@ -1,0 +1,677 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 956px) {
+    .container {
+        padding: 0 20px;
+    }
+    .header__menu__left {
+        width: 30%;
+    }
+    .header__menu__logo {
+        width: 20%;
+        margin: 0 auto;
+    }
+    .header__menu__right {
+        width: 30%;
+    }
+    .header__menu__search {
+        margin-right: 40px;
+    }
+    .header__menu__regis a {
+        margin-right: 0px;
+    }
+    .header__content {
+        margin-top: 250px;
+    }
+    .header__sponsor img {
+        width: 120px;
+    }
+    /* posetite blocks
+    ============================= */
+    .posetite__text {
+        width: 60%;
+    }
+    .posetite__texts p {
+        font-size: 20px;
+    }
+    .posetite__texts span {
+        font-size: 15px;
+    }
+    /* luchshie blocks
+    ================================== */
+    .luchshie___cards {
+        margin-top: 50px;
+    }
+    .luchshie__card1,
+    .luchshie__card2,
+    .luchshie__card3 {
+        width: 250px;
+        height: 250px;
+    }
+    .luchshie___cards p {
+        font-size: 18px;
+    }
+    /* mi blocks 
+    ===========================*/
+    .mi__card1,
+    .mi__card2bottom {
+        width: 400px;
+        height: 250px;
+    }
+    .mi__card2 img,
+    .mi__card1bottom img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 955.99px) and (min-width: 756px) {
+    .container {
+        padding: 0 20px;
+    }
+    .header__menu__left {
+        width: 30%;
+    }
+    .header__menu__left a {
+        padding-right: 20px;
+        font-size: 12px;
+    }
+    .header__menu__logo {
+        width: 25%;
+    }
+    .header__menu__logo a img {
+        width: 180px;
+    }
+    .header__menu__right {
+        width: 32%;
+    }
+    .header__menu__search {
+        margin-right: 30px;
+    }
+    .header__menu__search p {
+        font-size: 12px;
+    }
+    .header__menu__regis a {
+        margin-right: 0px;
+        font-size: 12px;
+    }
+    .header__content {
+        margin-top: 250px;
+    }
+    .header__sponsor img {
+        width: 120px;
+    }
+    /* nastoyashiy blocks */
+    .nasto__button {
+        font-size: 13px;
+    }
+    .nasto__card1,
+    .nasto__card2,
+    .nasto__card3,
+    .nasto__card4,
+    .nasto__card5,
+    .nasto__card6 {
+        width: 200px;
+        height: 160px;
+    }
+    /* posetite blocks
+    ============================= */
+    .posetite__text {
+        width: 80%;
+    }
+    .posetite__texts p {
+        font-size: 21px;
+    }
+    .posetite__texts span {
+        font-size: 16px;
+    }
+    /* luchshie blocks
+    ================================== */
+    .luchshie___cards {
+        margin-top: 50px;
+    }
+    .luchshie__card1,
+    .luchshie__card2,
+    .luchshie__card3 {
+        width: 200px;
+        height: 200px;
+    }
+    .luchshie___cards p {
+        font-size: 15px;
+        padding: 0 3px 10px;
+    }
+    /* mi blocks 
+    ===========================*/
+    .mi__card1,
+    .mi__card2bottom {
+        width: 300px;
+        height: 200px;
+    }
+    .mi__card2 img,
+    .mi__card1bottom img {
+        width: 150px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 755.99px) and (min-width: 512px) {
+    .container {
+        padding: 0 20px;
+    }
+    .header__blocks {
+        position: relative;
+    }
+    .header__mobile__blocks {
+        display: block;
+        position: absolute;
+        top: -200%;
+        right: 0;
+        width: 65%;
+        height: 100vh;
+        background-image: url(images/mobile\ backround.png);
+        background-position: 20%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: 1.5s;
+    }
+    .header__mobile__block {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+    .fa-close {
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        font-size: 25px;
+        color: white;
+    }
+    .fa-close:hover {
+        color: red;
+    }
+    .mobile__links {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px;
+    }
+    .mobile__links a {
+        font-family: Gilroy;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+        padding-bottom: 40px;
+    }
+    .mobile__input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .search__input {
+        width: 250px;
+        display: block;
+        border: 1px solid white;
+        background: black;
+        border-radius: 50px;
+        height: 30px;
+        color: white;
+        padding: 3px 10px;
+        outline: none;
+        font-size: 15px;
+    }
+    .search__input::placeholder {
+        border: none;
+        color: white;
+        padding: 3px;
+        outline: none;
+        font-size: 15px;
+    }
+    .mobile__menu__regis {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+    }
+    .mobile__menu__regis a {
+        font-family: Gilroy;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+    }
+    .mobile__regis__hearth {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px;
+    }
+    .fa-heart,
+    .fa-user {
+        font-size: 20px;
+    }
+    .mobile__menu__logo {
+        width: 100%;
+        margin-top: 120px;
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid white;
+    }
+    .header__menu__left {
+        width: 30%;
+        display: none;
+    }
+    .header__menu__left a {
+        padding-right: 20px;
+        font-size: 12px;
+    }
+    .header__menu__logo {
+        width: 25%;
+    }
+    .header__menu__logo a img {
+        width: 180px;
+    }
+    .header__menu__right {
+        width: 32%;
+        display: none;
+    }
+    .header__menu__search {
+        margin-right: 30px;
+    }
+    .header__menu__search p {
+        font-size: 12px;
+    }
+    .header__menu__regis a {
+        margin-right: 0px;
+        font-size: 12px;
+    }
+    .header__mobile__button {
+        display: block;
+    }
+    .fa-align-right {
+        color: white;
+        font-size: 40px;
+    }
+    .fa-align-right:hover {
+        color: rgb(182, 182, 182);
+    }
+    .header__content {
+        margin-top: 250px;
+    }
+    .header__sponsor img {
+        width: 15%;
+    }
+    /* nastoyashiy blocks */
+    .nasto__button {
+        font-size: 12px;
+    }
+    .nasto__buttons {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .nasto__buttons1,
+    .nasto__buttons2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .nasto__card1,
+    .nasto__card2,
+    .nasto__card3,
+    .nasto__card4,
+    .nasto__card5,
+    .nasto__card6 {
+        width: 200px;
+        height: 130px;
+    }
+    .nasto__cards p {
+        font-size: 17px;
+    }
+    /* posetite blocks
+    ============================= */
+    .posetite__text {
+        width: 80%;
+    }
+    .posetite__texts p {
+        font-size: 19px;
+    }
+    .posetite__texts h1 {
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+    .posetite__texts span {
+        font-size: 14px;
+    }
+    /* luchshie blocks
+    ================================== */
+    .luchshie___cards {
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .luchshie__card1,
+    .luchshie__card2,
+    .luchshie__card3 {
+        width: 400px;
+        height: 400px;
+        margin-bottom: 30px;
+    }
+    .luchshie___cards p {
+        font-size: 21px;
+        width: 300px;
+        padding: 0 3px 10px;
+    }
+    .luchshie__button {
+        margin-top: 30px;
+    }
+    /* mi blocks 
+    ===========================*/
+    .mi__cards__top,
+    .mi__cards__bottom {
+        flex-direction: column;
+    }
+    .mi__card1,
+    .mi__card2bottom {
+        width: 400px;
+        height: 250px;
+    }
+    .mi__card2 img,
+    .mi__card1bottom img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 511.99px) and (min-width: 300px) {
+    .container {
+        padding: 0 20px;
+    }
+    .header__blocks {
+        position: relative;
+    }
+    .header__mobile__blocks {
+        display: block;
+        position: absolute;
+        top: -200%;
+        right: 0;
+        width: 100%;
+        height: 100vh;
+        background-image: url(images/mobile\ backround.png);
+        background-position: 20%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transform: translateX(0%);
+        transition: 1.5s;
+    }
+    .header__mobile__block {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+    .fa-close {
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        font-size: 25px;
+        color: white;
+    }
+    .fa-close:hover {
+        color: red;
+    }
+    .mobile__links {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px;
+    }
+    .mobile__links a {
+        font-family: Gilroy;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+        padding-bottom: 40px;
+    }
+    .mobile__input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .search__input {
+        width: 250px;
+        display: block;
+        border: 1px solid white;
+        background: black;
+        border-radius: 50px;
+        height: 30px;
+        color: white;
+        padding: 3px 10px;
+        outline: none;
+        font-size: 15px;
+    }
+    .search__input::placeholder {
+        border: none;
+        color: white;
+        padding: 3px;
+        outline: none;
+        font-size: 15px;
+    }
+    .mobile__menu__regis {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+    }
+    .mobile__menu__regis a {
+        font-family: Gilroy;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: white;
+    }
+    .mobile__regis__hearth {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px;
+    }
+    .fa-heart,
+    .fa-user {
+        font-size: 20px;
+    }
+    .mobile__menu__logo {
+        width: 100%;
+        margin-top: 120px;
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top: 1px solid white;
+    }
+    .header__menu__left {
+        width: 30%;
+        display: none;
+    }
+    .header__menu__left a {
+        padding-right: 20px;
+        font-size: 12px;
+    }
+    .header__menu__logo {
+        width: 25%;
+    }
+    .header__menu__logo a img {
+        width: 180px;
+    }
+    .header__menu__right {
+        width: 32%;
+        display: none;
+    }
+    .header__menu__search {
+        margin-right: 30px;
+    }
+    .header__menu__search p {
+        font-size: 12px;
+    }
+    .header__menu__regis a {
+        margin-right: 0px;
+        font-size: 12px;
+    }
+    .header__mobile__button {
+        display: block;
+    }
+    .fa-align-right {
+        color: white;
+        font-size: 40px;
+    }
+    .fa-align-right:hover {
+        color: rgb(182, 182, 182);
+    }
+    .header__content {
+        margin-top: 250px;
+    }
+    .header__content h1 {
+        font-size: 25px;
+    }
+    .header__sponsor img {
+        width: 15%;
+    }
+    /* nastoyashiy blocks */
+    .nasto__texts {
+        margin-top: 20px;
+    }
+    .nasto__texts p {
+        font-size: 15px;
+    }
+    .nasto__texts h1 {
+        font-size: 20px;
+    }
+    .nasto__buttons {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .nasto__buttons1,
+    .nasto__buttons2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .nasto__button {
+        font-size: 11px;
+        padding: 4px 12px;
+    }
+    .nasto__cards {
+        margin-bottom: 50px;
+    }
+    .nasto__cards1,
+    .nasto__cards2 {
+        flex-direction: column;
+    }
+    .nasto__card1,
+    .nasto__card2,
+    .nasto__card3,
+    .nasto__card4,
+    .nasto__card5,
+    .nasto__card6 {
+        width: 80%;
+        height: 180px;
+        margin-bottom: 15px;
+    }
+    .nasto__cards p {
+        font-size: 17px;
+    }
+    /* posetite blocks
+    ============================= */
+    .posetite__text {
+        width: 100%;
+    }
+    .posetite__texts p {
+        font-size: 14px;
+    }
+    .posetite__texts h1 {
+        font-size: 22px;
+        padding-bottom: 20px;
+    }
+    .posetite__texts span {
+        font-size: 10px;
+    }
+    .posetite__texts a {
+        font-size: 16px;
+    }
+    /* luchshie blocks
+    ================================== */
+    .luchshie__texts {
+        margin-top: 25px;
+    }
+    .luchshie__texts h1 {
+        font-size: 25px;
+    }
+    .luchshie___cards {
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .luchshie__card1,
+    .luchshie__card2,
+    .luchshie__card3 {
+        width: 100%;
+        height: 400px;
+        margin-bottom: 30px;
+    }
+    .luchshie___cards p {
+        font-size: 16px;
+        width: 300px;
+        padding: 0 7px 10px;
+    }
+    .luchshie__button {
+        margin-top: 30px;
+    }
+    /* mi blocks 
+    ===========================*/
+    .mi__texts h1 {
+        font-size: 20px;
+    }
+    .mi__cards__top,
+    .mi__cards__bottom {
+        flex-direction: column;
+    }
+    .mi__card1 img,
+    .mi__card2bottom img {
+        width: 50px;
+    }
+    .mi__card1,
+    .mi__card2bottom {
+        width: 250px;
+        height: 150px;
+    }
+    .mi__card2 img,
+    .mi__card1bottom img {
+        width: 125px;
+        height: 130px;
+    }
+}
