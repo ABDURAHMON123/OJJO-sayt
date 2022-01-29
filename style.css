@@ -917,3 +917,141 @@ a {
     padding-bottom: 15px;
     transition: .5s;
 }
+
+
+/* polezni blocks
+========================================== */
+
+.polezni__blocks {
+    width: 100%;
+    background-image: url(images/posetite\ backround.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.polezni__block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.polezni__texts {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.polezni__texts p {
+    font-family: Gilroy;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.polezni__texts h1 {
+    font-family: Noto Serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.polezni__search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.polezni__subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subs {
+    display: flex;
+    width: 300px;
+    margin-bottom: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.subs img {
+    width: 15px;
+    height: 15px;
+    margin-right: 15px;
+}
+
+.subs p {
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.search__blocks {
+    border: 2px solid white;
+    width: 30%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.search__block {
+    margin: 15px;
+    background-color: white;
+    width: 90%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search__input {
+    width: 50%;
+    height: 50%;
+    margin-right: 15px;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+.search__input::placeholder {
+    color: black;
+    padding-left: 0;
+}
+
+.search__block a {
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: white;
+    padding: 10px 20px;
+    background-color: black;
+}
